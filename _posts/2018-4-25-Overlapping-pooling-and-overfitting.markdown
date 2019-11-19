@@ -5,6 +5,10 @@ date:   2018-4-25
 categories: jekyll update
 ---
 
+<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
+
+
 *** The content may be outdated and inaccurate
 
 ---

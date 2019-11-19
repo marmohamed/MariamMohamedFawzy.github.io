@@ -4,7 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
+<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{'/blog/assets/css/style_resume.css'}}" />
+<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
 
 <div class="card">
   <!-- <img src="/blog/assets/images/myimg.png" alt="Avatar" style="width:10%; border-radius: 50%;"> -->
@@ -29,6 +31,12 @@ permalink: /resume/
         <a href="https://www.linkedin.com/in/mariam-mohamed-a967b5ab/" class="social-link">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#626262"/></svg>
         </a>
+
+        <a href="https://www.kaggle.com/mariammohamed" class="social-link">
+           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589l-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18c.046.149.034.255-.036.315l-6.555 6.344l6.836 8.507c.095.104.117.208.07.358" fill="#626262"/></svg>
+        </a>
+
+
         </p>
     </div>
   </div>

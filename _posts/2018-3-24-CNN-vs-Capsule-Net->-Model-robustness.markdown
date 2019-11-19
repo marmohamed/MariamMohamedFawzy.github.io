@@ -5,6 +5,10 @@ date:   2018-3-24
 categories: jekyll update
 ---
 
+<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
+
+
 Capsule network is getting more and more attention after the dynamic routing paper was published in 2017. I beleived that capsule network will be much better than normal CNN in recognizing images with different transformations as it focuses on ratings, not single pixels, parts of objects existing in the image will give more weight to the correct object. Therefore, I have trained both CNN and capsule network on MNIST data set for 12 epochs. Ecah gives more than 0.99% accuracy on training set and test set. I then tested the two models on the test set after applying several operations.
 
 The four variations of the noisy test set are:
