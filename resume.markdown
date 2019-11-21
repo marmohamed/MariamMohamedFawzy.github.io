@@ -139,6 +139,21 @@ permalink: /resume/
   </div>
 </div>
 
+<div class="card">
+  <br>
+  <div class="container">
+    <h4><b>Courses</b></h4>
+    <ul>
+        <li>Self-Driving Cars Nanodegree:
+            <a href="https://graduation.udacity.com/confirm/KJACGKMN">Link</a>
+        </li>
+        <li>Coursera Coures: 
+            <a href="https://www.coursera.org/user/1f6e811ebbaa72a9c55176d324e91dcc">Link</a>
+        </li>
+    </ul>
+  </div>
+</div>
+
 
 <div class="card">
   <br>
