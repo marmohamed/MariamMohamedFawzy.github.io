@@ -80,7 +80,7 @@ permalink: /resume/
                 <li>
                     Projects:
                     <ul>
-                        <li>PDF tables extraction web service</li>
+                        <li>PDF tables extraction using computer vision & building a web service</li>
                         <li>Build a clustering algorithm</li>
                         <li>Simple Tensorflow task</li>
                         <li>Software engineering task</li>
