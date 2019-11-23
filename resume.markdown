@@ -5,11 +5,11 @@ permalink: /resume/
 ---
 
 <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{'/blog/assets/css/style_resume.css'}}" />
-<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
+<link rel="stylesheet" href="{{'/assets/css/style_resume.css'}}" />
+<link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" />
 
 <div class="card">
-  <!-- <img src="/blog/assets/images/myimg.png" alt="Avatar" style="width:10%; border-radius: 50%;"> -->
+  <!-- <img src="/assets/images/myimg.png" alt="Avatar" style="width:10%; border-radius: 50%;"> -->
   <br>
   <div class="container">
     <h4><b>Mariam Mohamed</b></h4>
@@ -17,7 +17,7 @@ permalink: /resume/
     <div>
         <p>
         <a href="https://github.com/MariamMohamedFawzy" class="social-link">
-            <svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> 
+            <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> 
         </a>
 
         <a href="https://www.upwork.com/freelancers/~012a55e5d5a8b322e7" class="social-link">

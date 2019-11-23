@@ -6,4 +6,4 @@ layout: home
 ---
 
 <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
+<link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" />

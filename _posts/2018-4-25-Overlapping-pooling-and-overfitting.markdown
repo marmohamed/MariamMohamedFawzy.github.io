@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{'/blog/assets/css/style_font.css'}}" />
+<link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" />
 
 
 *** The content may be outdated and inaccurate
@@ -24,14 +24,14 @@ I trained CIFAR10 from Keras datasets for only 50 epochs.
 
 All models have the following structure
 
-<img src="/blog/assets/images/model.png" alt="model" style="width: 400px; height=600px;"/>
+<img src="/assets/images/model.png" alt="model" style="width: 400px; height=600px;"/>
 
 ### Model 1:
 
 Both max-pooling components contain one pooling layer, each has F = 2, S = 2 (**nonoverlapping**). The image size before the fully connected layer is (8, 8).
 
 
-<img src="/blog/assets/images/model_1_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/blog/assets/images/model_1_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_1_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/assets/images/model_1_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.8218***
@@ -42,7 +42,7 @@ Both max-pooling components contain one pooling layer, each has F = 2, S = 2 (**
 Both max-pooling components contain one pooling layer, each has F = 2, S = 1 (**overlapping**) . The image size before the fully connected layer is (30, 30).
 
  
-<img src="/blog/assets/images/model_2_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/blog/assets/images/model_2_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_2_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/assets/images/model_2_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.7795***
@@ -54,7 +54,7 @@ Both max-pooling components contain one pooling layer, each has F = 2, S = 1 (**
 Both max-pooling components contain one pooling layer, each has F = 4,S = 2 (**overlapping**). The image size before the fully connected layer is (6, 6).
 
  
-<img src="/blog/assets/images/model_3_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/blog/assets/images/model_3_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_3_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/assets/images/model_3_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.843***
@@ -67,7 +67,7 @@ Both max-pooling components contain one pooling layer, each has F = 4,S = 2 (**
 Both max-pooling components contain one pooling layer, each has F = 4,S = 4 (**nonoverlapping**). The image size before the fully connected layer is (2, 2).
 
  
-<img src="/blog/assets/images/model_4_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/blog/assets/images/model_4_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_4_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/assets/images/model_4_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.8134***
@@ -78,7 +78,7 @@ Both max-pooling components contain one pooling layer, each has F = 4,S = 4 (**n
 No pooling layers in this model. The image size before the fully connected layer is (32, 32).
 
  
-<img src="/blog/assets/images/model_5_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/blog/assets/images/model_5_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_5_acc.png" alt="model" style="width: 300px; height=400px;"/>  <img src="/assets/images/model_5_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.7249***
@@ -90,7 +90,7 @@ No pooling layers in this model. The image size before the fully connected layer
 The first max-pooling component has one max-pooling layer, the second one has two, each has F = 4, S = 2 (**overlapping**). I added two pooling layers in the second component to reduce the image size before the fully connected layer to be (2, 2), as in the non-overlapping version (Model 4).
 
  
-<img src="/blog/assets/images/model_6_acc.png" alt="model" style="width: 300px; height=400px;"/> <img src="/blog/assets/images/model_6_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_6_acc.png" alt="model" style="width: 300px; height=400px;"/> <img src="/assets/images/model_6_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.8139***
@@ -102,7 +102,7 @@ The first max-pooling component has one max-pooling layer, the second one has tw
 The first max-pooling component has one max-pooling layer, the second one has two, each has F = 3, S = 4 (**nonoverlapping**).
 
  
-<img src="/blog/assets/images/model_7_acc.png" alt="model" style="width: 300px; height=400px;"/> <img src="/blog/assets/images/model_7_loss.png" alt="model" style="width: 300px; height=400px;"/>
+<img src="/assets/images/model_7_acc.png" alt="model" style="width: 300px; height=400px;"/> <img src="/assets/images/model_7_loss.png" alt="model" style="width: 300px; height=400px;"/>
 
 
 ***Accuracy on test set: 0.7961***
