@@ -9,7 +9,7 @@ categories: jekyll update
 <link rel="stylesheet" href="{{'/assets/css/style_docker.css'}}" />
 <link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" />
 
-<h2>This post is still incomplete yet</h2>
+<h2>This post is incomplete yet</h2>
 <hr>
 
 <h3> No Flood </h3>
