@@ -28,11 +28,29 @@ url: "https://mariammohamedfawzy.github.io/" # the base hostname & protocol for 
 github_username:  MariamMohamedFawzy
 
 # Build settings
-theme: minima
+theme: lanyon
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 google_analytics: UA-152858052-1
+
+paginate:            5
+permalink:           pretty
+
+
+# permalink: /:categories/:title/
+# tag_page_layout: tag_page
+# tag_page_dir: tag
+
+# tag_permalink_style: pretty
+
+# collections:
+#   tags:
+#     output: true
+#     permalink: tags/:path/
+
+
 
 
 # Exclude from processing.

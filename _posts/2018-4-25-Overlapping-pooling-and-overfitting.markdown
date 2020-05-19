@@ -2,11 +2,12 @@
 layout: post
 title:  "Overlapping pooling and overfitting"
 date:   2018-4-25
-categories: jekyll update
+categories: 
+# tags: 
 ---
 
-<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" />
+<!-- <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="{{'/assets/css/style_font.css'}}" /> -->
 
 
 *** The content may be outdated and inaccurate
