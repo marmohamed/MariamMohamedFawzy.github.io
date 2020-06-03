@@ -20,6 +20,10 @@ An index or a dictionary. Each key is a tensor's name and its value is where to 
 It contains the values of the variables/tensors.
 <br><br>
 
+Another important file is the Checkpoint file that is shared among all checkpoints.
+It is a file that you can open with your text editor and edit. It contains the path of the latest chepoint. \\
+It is important to understand this because you may need to change the content of this file yourself to change the path of the checkpoint to use in the function `tf.train.latest_checkpoint`. 
+
 In the following steps, we will load the variables from an old graph/model to a new one.
 
 <br>
