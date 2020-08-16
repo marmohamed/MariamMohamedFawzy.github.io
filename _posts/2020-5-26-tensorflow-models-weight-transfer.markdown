@@ -4,6 +4,8 @@ title:  "Transfer weights from a pretrained model to specific layers in Tensorfl
 date:   2020-5-26
 categories: 
 tags: tensorflow
+# permalink: /:title:output_ext
+
 ---
 In this post, I have a big models with many modules that I want to train separately. <br>
 Also, I have a module that I change alot, but training the whole model from scratch will be time-consuming, so a solution is to train and freeze the modules that will not change, then load them when resume training the chaged module. 

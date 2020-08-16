@@ -4,6 +4,9 @@ title:  "Overlapping pooling and overfitting"
 date:   2018-4-25
 categories: 
 # tags: 
+# permalink: /:title:output_ext
+readmin: 3
+# description: 
 ---
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"> -->

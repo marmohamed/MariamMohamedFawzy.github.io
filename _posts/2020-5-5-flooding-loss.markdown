@@ -4,6 +4,9 @@ title:  "Flooding Loss"
 date:   2020-5-5
 categories: 
 tags: papers_analysis
+# permalink: /:title:output_ext
+readmin: 5
+description: This post is a trial to automate the selection of the flood value of the flodd loss.
 ---
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"> -->

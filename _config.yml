@@ -38,7 +38,28 @@ google_analytics: UA-152858052-1
 paginate:            5
 permalink:           pretty
 
+# scholar:
+#   style: apa
+#   locale: en
 
+#   sort_by: none
+#   order: ascending
+
+#   source: ./_bibliography
+#   bibliography: references.bib
+#   bibliography_template: "{{reference}}"
+
+#   replace_strings: true
+#   join_strings:    true
+
+#   details_dir:    bibliography
+#   details_layout: bibtex.html
+#   details_link:   Details
+
+#   query: "@*"
+
+
+permalink: /:title:output_ext
 # permalink: /:categories/:title/
 # tag_page_layout: tag_page
 # tag_page_dir: tag

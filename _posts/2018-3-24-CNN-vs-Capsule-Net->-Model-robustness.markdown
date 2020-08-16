@@ -4,6 +4,9 @@ title:  "CNN vs Capsule Net - Model robustness"
 date:   2018-3-24
 categories: 
 tags: 
+# permalink: /:title:output_ext
+readmin: 3
+description: This post compares the effect of capsule network on the robustness of the model.
 ---
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"> -->
