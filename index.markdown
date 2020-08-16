@@ -14,7 +14,7 @@ title: Home
 <link rel="stylesheet" href="{{'/public/css/style_posts.css'}}" />
 {% include collecttags.html %}
 
-<div class="tags_div">
+<!-- <div class="tags_div">
 
       Tags: 
       <br>
@@ -27,7 +27,7 @@ title: Home
       {% endfor %}
 
 </div>
-<br>
+<br> -->
 <h1> Posts </h1>
 <hr>
 <div class="posts">
