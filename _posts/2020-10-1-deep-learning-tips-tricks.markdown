@@ -19,10 +19,12 @@ If you have a big model that you will change alot of stuff like the architecture
 2. Make a google sheet of the versions and their results. This would help a lot to know what works well and what does not.
 
 ### 2. Batch Normalization
-When the batch size is small (mine was 1,2,4), the performance drops drastically. According to [this paper](https://arxiv.org/pdf/1803.08494.pdf), the batch norm performance drops when the batch size decreases. Therefore, if you have to use small batch sizes (about less than 16 ), think of changing batch normalization to other normalization techniques such as [group norm](https://arxiv.org/pdf/1803.08494.pdf) which is not affected by batch size.
+1. When the batch size is small (mine was 1,2,4), the performance drops drastically. According to [this paper](https://arxiv.org/pdf/1803.08494.pdf), the batch norm performance drops when the batch size decreases. Therefore, if you have to use small batch sizes (about less than 16 ), think of changing batch normalization to other normalization techniques such as [group norm](https://arxiv.org/pdf/1803.08494.pdf) which is not affected by batch size.
+2. According to [this](https://arxiv.org/pdf/1903.10520.pdf), [this](https://arxiv.org/pdf/1912.11370.pdf) and [this](https://arxiv.org/pdf/2010.10241v1.pdf), try weight normalization with group norm.
 
 ### 3. Data augmentation
 We go to data augmenattion to aboid overfitting especially if our dataset is small. But, not all data augmentation techniques are suitable for all tasks. We choose the augmentations that we expect that our model sees in the validation and that have features that are not very different from those in the data. \\
-However, if you are not sure if some augmenattion technique is good, you have to try it. Sometimes it works unexpectedly.\\
-In my thesis, I have RGB data and LiDAR BEV data on two different branches. I expected that making different augmentations on the two branches (such as translating BEV and keeping RGB fixed) would make the model not able to work or match the features. But this did not happen. The model was big enough to match the features from both branches and getting the same mAP (for an 3d object detection task) as using BEV alone.
+However, if you are not sure if some augmenattion technique is good, you have to try it. Sometimes it works unexpectedly, as the model may see this as regularization.\\
 
+### 4. Multi-task learning
+1. normalize the target values of the different outputs or at leat make sure they are of the same range nor so far from each other.
