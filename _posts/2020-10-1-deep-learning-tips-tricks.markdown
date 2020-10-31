@@ -27,4 +27,4 @@ We go to data augmenattion to aboid overfitting especially if our dataset is sma
 However, if you are not sure if some augmenattion technique is good, you have to try it. Sometimes it works unexpectedly, as the model may see this as regularization.\\
 
 ### 4. Multi-task learning
-1. normalize the target values of the different outputs or at leat make sure they are of the same range nor so far from each other.
+1. normalize the target values of the different outputs or at least make sure they are of the same range nor so far from each other.
