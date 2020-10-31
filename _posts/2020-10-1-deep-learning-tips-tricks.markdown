@@ -24,7 +24,7 @@ If you have a big model that you will change alot of stuff like the architecture
 
 ### 3. Data augmentation
 We go to data augmenattion to aboid overfitting especially if our dataset is small. But, not all data augmentation techniques are suitable for all tasks. We choose the augmentations that we expect that our model sees in the validation and that have features that are not very different from those in the data. \\
-However, if you are not sure if some augmenattion technique is good, you have to try it. Sometimes it works unexpectedly, as the model may see this as regularization.\\
+However, if you are not sure if some augmenattion technique is good, you have to try it. Sometimes it works unexpectedly, as the model may see this as regularization.
 
 ### 4. Multi-task learning
 1. normalize the target values of the different outputs or at least make sure they are of the same range nor so far from each other.
